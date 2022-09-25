@@ -50,6 +50,7 @@ nav {
 
 nav svg {
     cursor: pointer;
+    z-index: 10;
 }
 
 .links {
@@ -123,6 +124,11 @@ ctas {
     color: var(--main-secondary);
 }
 
+.cta-main a {
+    text-decoration: none;
+    color: var(--main-secondary);
+}
+
 .cta-sec {
     background-color: var(--main-secondary);
     color: #fff;
@@ -184,4 +190,29 @@ ctas {
 .about img {
     width: 100%;
     margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        padding: 10%;
+    }
+
+    .videos {
+        display: flex;
+        gap: 2rem
+    }
+
+    .about {
+        display: flex;
+        gap: 5rem;
+        justify-content: space-between;
+    }
+
+    .about img {
+        width: 50%;
+    }
+
+    .about h2 {
+        text-align: start;
+    }
 }
