@@ -5,10 +5,21 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Minimalist Website</title>
+
+        <!-- google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rancho&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Css -->
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <section class="front-page">
+            <img class="hero" src="assets/hero.png" alt="meditacion" />
             <nav>
                 <div class="logo">
                     <img src="assets/logo.svg" alt="logo" />
@@ -66,6 +77,50 @@
             </div>
         </section>
 
+        <section class="classes">
+            <div class="classes-description">
+                <h2>Clases adaptadas para ti</h2>
+                <h3>Es hora de sanar tu mente y cuerpo</h3>
+            </div>
+            <div class="videos">
+                <div class="pilates">
+                    <h3>pilates</h3>
+                    <video src="assets/pilates.mp4"></video>
+                </div>
+                <div class="yoga">
+                    <h3>yoga</h3>
+                    <video src="assets/yoga.mp4"></video>
+                </div>
+                <div class="meditation">
+                    <h3>meditacion</h3>
+                    <video src="assets/meditation.mp4"></video>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="our-story">
+                <h2>Nuestra Historia</h2>
+                <p>
+                    Always a student, Janet has immersed of yoga for over a
+                    thirty years. A glob teaching from the heart. Through curse
+                    she creates a unique aproch to living
+                </p>
+            </div>
+            <img src="assets/our-story.png" alt="our-story" />
+        </section>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"
+            integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.js"
+            integrity="sha512-gAL8FSxBKWy7rrebK5wKCKtx6h7dUna4zgJ+kV+gZtxTan4paJ2tSu3bS+bwTxCi7/N3zRYHDar8N2qDG56bKQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
         <script src="script.js
     "></script>
     </body>
